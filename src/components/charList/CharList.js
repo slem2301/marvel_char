@@ -136,6 +136,8 @@ class CharList extends Component {
     }
 }
 
-
+CharList.propTypes = {
+    onCharSelected: PropTypes.func
+}
 // new com
 export default CharList;
